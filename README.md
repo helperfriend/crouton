@@ -6,23 +6,6 @@ supported (using debootstrap behind the scenes), but "Chromium OS Debian,
 Ubuntu, and Probably Other Distros Eventually Chroot Environment" doesn't
 acronymize as well (crodupodece is admittedly pretty fun to say, though).
 
-### crouton is now maintenance-only
-
-This means that:
- * Only bugfix and release list PRs will be accepted.
- * New distro releases will be added to the list as unsupported.
- * As xenial is EOL, crouton will (at some point) no longer have a default
-   release. You will always have to specify `-r`.
- * Bugs without updates in the past year will be bulk-closed with a "stale" tag.
- * Open PRs will be left open but have the "stale" tag added. If anyone who
-   forks crouton wants to pick up the feature work, they can build right off of
-   those PRs.
- * For the safety of users and stability of crouton's functionality for those on
-   EOL devices, offers to take over the dnschneid/crouton repo or Chrome
-   extension will be declined, and requests to change the goo.gl/fd3zc or
-   goo.gl/OVQOEt destinations will be rejected. If you would like to continue
-   feature work on crouton, fork it, do a good job of it, and people can choose
-   to use it at their own risk.
 
 ## But first...
 
