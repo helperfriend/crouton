@@ -4,6 +4,8 @@
 # found in the LICENSE file.
 
 set -e
+mount -o remount,rw /sys/kernel/security
+echo -n /mnt/stateful_partition > /sys/kernel/security/chromiumos/inode_security_policies/allow_symlink
 
 APPLICATION="${0##*/}"
 SCRIPTDIR="${SCRIPTDIR:-"`dirname "$0"`/.."}"
