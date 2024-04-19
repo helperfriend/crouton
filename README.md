@@ -1,7 +1,7 @@
 This is yet another fork of dnschied's **crouton: Chromium OS Universal Chroot Environment**. Hopefully, I'll 
 do something with it. However, one thing won't do is change the original legendary readme:
 
-Rrouton is a set of scripts that bundle up into an easy-to-use,
+Crouton is a set of scripts that bundle up into an easy-to-use,
 Chromium OS-centric chroot generator. Currently Ubuntu and Debian are
 supported (using debootstrap behind the scenes), but "Chromium OS Debian,
 Ubuntu, and Probably Other Distros Eventually Chroot Environment" doesn't
