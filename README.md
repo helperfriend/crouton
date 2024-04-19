@@ -1,4 +1,4 @@
-This is yet another fork of dnchier's **crouton: Chromium OS Universal Chroot Environment**. Hopefully, I'll 
+This is yet another fork of dnschied's **crouton: Chromium OS Universal Chroot Environment**. Hopefully, I'll 
 do something with it. However, one thing won't do is change the original legendary readme:
 
 Rrouton is a set of scripts that bundle up into an easy-to-use,
