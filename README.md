@@ -1,13 +1,11 @@
-# crouton: Chromium OS Universal Chroot Environment
+This is yet another fork of dnchier's **crouton: Chromium OS Universal Chroot Environment**. Hopefully, I'll 
+do something with it. However, one thing won't do is change the original legendary readme:
 
-crouton is a set of scripts that bundle up into an easy-to-use,
+Rrouton is a set of scripts that bundle up into an easy-to-use,
 Chromium OS-centric chroot generator. Currently Ubuntu and Debian are
 supported (using debootstrap behind the scenes), but "Chromium OS Debian,
 Ubuntu, and Probably Other Distros Eventually Chroot Environment" doesn't
 acronymize as well (crodupodece is admittedly pretty fun to say, though).
-
-
-## But first...
 
 :warning: **Steps to install crouton have changed!**  :warning:
 
@@ -18,7 +16,7 @@ from SD cards have to change a little.
 Please read the relevant sections of this README carefully, and reach out to
 your favorite weblogger/tutorialer/videotuber to update their guides if they're
 behind the times. If you're successful, brag about your accomplishments in [the
-issue tracker](https://github.com/dnschneid/crouton/issues/4026) and earn the
+issue tracker](https://github.com/helperfriend/crouton/issues/) and earn the
 personal gratitude of the crouton authors\*!
 
 <sup>\* limit one (1) gratitude per commenter</sup>
